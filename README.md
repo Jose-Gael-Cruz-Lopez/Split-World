@@ -1,7 +1,5 @@
 # Split World
 
-<img width="280" height="236" alt="Screenshot 2026-03-29 at 6 10 30 AM" src="https://github.com/user-attachments/assets/1586118b-1e0f-459f-87cd-8432b6b94408" />
-
 ## Inspiration
 
 We wanted to bring people together through a game they already know and love, right inside Snapchat. Charades is universal: it's simple, social, and hilarious. Split World reimagines that experience as a quick, sendable AR minigame between friends.
