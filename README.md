@@ -1,5 +1,9 @@
 # Split World
 
+<p align="center">
+	<video src="demo.MOV" controls width="720"></video>
+</p>
+
 ## Inspiration
 
 We wanted to bring people together through a game they already know and love, right inside Snapchat. Charades is universal: it's simple, social, and hilarious. Split World reimagines that experience as a quick, sendable AR minigame between friends.
@@ -58,5 +62,6 @@ We plan to add a global leaderboard to track all-time wins, support multi-round 
 	- Lens package resources and material assets
 - Split World_Lens Studio.esproj
 	- Main Lens Studio project file
-- preview.mp4
+
+- demo.MOV
 	- Demo video preview
