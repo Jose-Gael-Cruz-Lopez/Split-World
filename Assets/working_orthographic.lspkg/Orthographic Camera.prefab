@@ -1,0 +1,138 @@
+- !<ObjectPrefab/5a6cae3b-6418-4467-82fc-93b2c99d9673>
+  PackagePath: ""
+  objects:
+    - !<own> 71129b7c-d299-4f36-bb42-535549ec1382
+  LazyLoading: false
+  RetainAssets: true
+- !<ScreenRegionComponent/2e374a74-5de0-405e-ac38-20c5d72a0bce>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<Canvas/590afc6f-4f03-479a-bddd-3af849286132>
+  PrefabRemaps:
+    []
+  Name: Canvas
+  Enabled: true
+  UnitType: Points
+  SortingType: Hierarchy
+  WorldSpaceRect:
+    left: -15.000000
+    bottom: -20.000000
+    right: 15.000000
+    top: 20.000000
+- !<SceneObject/71129b7c-d299-4f36-bb42-535549ec1382>
+  PrefabRemaps:
+    - 2e374a74-5de0-405e-ac38-20c5d72a0bce: 2e374a74-5de0-405e-53c7-df3a28d5f431
+    - 590afc6f-4f03-479a-bddd-3af849286132: 590afc6f-4f03-479a-4222-c507b6d79ecd
+    - 71129b7c-d299-4f36-bb42-535549ec1382: 71129b7c-d299-4f36-44bd-acaab613ec7d
+    - abb34a18-1cf5-49ef-b9a6-1082107116b2: abb34a18-1cf5-49ef-4659-ef7def8ee94d
+    - b26a5939-7bcd-4635-bd8c-15254a7f0ebe: b26a5939-7bcd-4635-4273-eadab580f141
+    - c04185dd-5ac9-4349-a2b1-008827883e69: c04185dd-5ac9-4349-5d4e-ff77d877c196
+    - e0677d25-d530-46d9-a24d-0d06aeaa441a: e0677d25-d530-46d9-5db2-f2f95155bbe5
+  Name: Orthographic Camera
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> abb34a18-1cf5-49ef-b9a6-1082107116b2
+  Components:
+    - !<own> c04185dd-5ac9-4349-a2b1-008827883e69
+    - !<own> 590afc6f-4f03-479a-bddd-3af849286132
+- !<SceneObject/abb34a18-1cf5-49ef-b9a6-1082107116b2>
+  PrefabRemaps:
+    []
+  Name: Full Frame Region
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e0677d25-d530-46d9-a24d-0d06aeaa441a
+    - !<own> 2e374a74-5de0-405e-ac38-20c5d72a0bce
+    - !<own> b26a5939-7bcd-4635-bd8c-15254a7f0ebe
+- !<InteractionComponent/b26a5939-7bcd-4635-bd8c-15254a7f0ebe>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    []
+- !<Camera/c04185dd-5ac9-4349-a2b1-008827883e69>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 1048576
+  MipmapLevel: 0
+  RenderOrder: 1
+  Size: 20.000000
+  Near: -1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: Value
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 0bdafeb2-11b5-4058-94a2-8565f77fd604
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/e0677d25-d530-46d9-a24d-0d06aeaa441a>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

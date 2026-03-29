@@ -1,0 +1,104 @@
+- !<Material/c222452c-c3dc-4232-b9c2-7f7f6c0d1c12>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> fd08f4b7-51f3-43dd-be4f-8a1662d407ce
+- !<PassInfo/fd08f4b7-51f3-43dd-be4f-8a1662d407ce>
+  CachedProperties:
+    - Port_Input2_N010:
+        typeIdx: 1
+        value: 0.000000
+    - Port_Input2_N051:
+        typeIdx: 1
+        value: 0.000000
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_FACE_TEX
+    - ENABLE_SMOOTH_EDGES
+    - ENABLE_BASE_TEX
+  BlendMode: PremultipliedAlphaAuto
+  Properties:
+    Port_AO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Emissive_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    Port_Input1_N001:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input1_N047:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N001:
+      typeIdx: 1
+      value: 0.000000
+    Port_Input2_N047:
+      typeIdx: 1
+      value: 0.000000
+    Port_SpecularAO_N023:
+      typeIdx: 4
+      value: {x: 1.000000, y: 1.000000, z: 1.000000}
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    baseColor:
+      typeIdx: 5
+      value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: cd549f8a-5848-41bf-ab39-3faa6834f28d
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: ClampToEdge
+          wrapModeV: ClampToEdge
+          wrapModeW: ClampToEdge
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    baseTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    maskTex:
+      typeIdx: 9
+      value:
+        id: 1e19878e-ef71-47ab-b216-a8b6473fb5ef
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+    maskTexTransform:
+      typeIdx: 7
+      value:
+        0: {x: 1.000000, y: 0.000000, z: 0.000000}
+        1: {x: 0.000000, y: 1.000000, z: 0.000000}
+        2: {x: 0.000000, y: 0.000000, z: 1.000000}
+    metallic:
+      typeIdx: 1
+      value: 0.000000
+    radius:
+      typeIdx: 1
+      value: 0.750000
+    roughness:
+      typeIdx: 1
+      value: 0.000000
+    softness:
+      typeIdx: 1
+      value: 0.750000
+  Pass: !<reference> adb7d4e3-9d51-4ee7-bec0-4406984a59b3

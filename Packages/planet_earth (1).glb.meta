@@ -1,0 +1,747 @@
+- !<AssetImportMetadata/76cbc967-f8f4-4cb4-ba83-a36a519ac44e>
+  ImportedAssetIds:
+    .hidden/Blue: !<reference> 21fcd45a-fdf2-450a-8468-b8c9a36fd6d0
+    09d2a31f58e10b49: !<reference> adabfa8f-70a7-4f0b-b2ca-e19c5bfb8ab0
+    0d47a9a33c1e48de: !<reference> cff4a738-04cc-44ab-9257-4a91db6660a6
+    0ef577a976be66cc: !<reference> 1e71ed21-2bea-441e-865b-104ce9ed781b
+    14d4c287edde4be3: !<reference> a70dd19b-0e8b-4fcd-8c6e-7a143ae311fe
+    15c2dcc4b7d97550: !<reference> 00fc0e87-2183-46dc-96f9-fad850c2e1e1
+    2095a7c9cef8e679: !<reference> 9d0da96b-1b45-4765-ae2d-8e0f20553370
+    39c53752552b7a29: !<reference> 57281154-6bd9-4b5d-97d9-c95a0b97d104
+    4518006d1af5eaa3: !<reference> 7f585585-87be-40a8-a3f7-96bd5a2c8d9e
+    4a3e924fad0e2f27: !<reference> 1af768f3-3b97-442b-ba8d-7e386eefcce6
+    4eb82f86ea596cbb: !<reference> 2a7aaf9f-0f23-4bd7-80e6-098ceb9ef702
+    5456cd091e7655cc: !<reference> 8d6a8397-c8f7-4fb6-8cfc-6757442a4bd7
+    5e4b52d888864f40: !<reference> 62652d0e-7ac0-4060-9d46-22dcebd5f808
+    66780cf3a4dcb2b8: !<reference> d043736c-e973-4609-86d4-8ca36f1a4fbb
+    71c454b1019adbd4: !<reference> d0634a3d-88c2-4959-9b7d-7f73959effa8
+    7357d4a239408518: !<reference> 4221011f-aff8-4655-8df3-e66bff38a1cb
+    75939cb4e61140f8: !<reference> ec754135-596b-4b37-abdb-bae82d6b3a80
+    7a92058691e4b341: !<reference> 154de764-cb3c-42c9-b2c3-21d099a08e64
+    82a5369505f77e9b: !<reference> bb8f5596-7248-4e5f-be2c-86890a5d708f
+    84acdd0828d42155: !<reference> eeaa4bf0-246d-44ae-b3a6-5173b2ef79a3
+    8cc004ff93d4b7dd: !<reference> 5f04b2f1-247f-4be0-9b66-a4cc0e0657ef
+    92a75bd5fa6ec16c: !<reference> 2b2b52f3-36a8-40c2-9bda-61309999eac7
+    Animations/Earth Turn: !<reference> df2e39c0-090c-4658-93cc-bb2f61896b69
+    Materials/Blue: !<reference> c71c8892-249a-4343-9b16-567679fccf65
+    Materials/Blue|Blue|GraphPassInfo: !<reference> d862990b-f6f0-48b1-9094-608eb39bfb25
+    Materials/Grass: !<reference> 94bb2810-8be6-47b1-be27-9b68e05464c3
+    Materials/Grass|Grass|GraphPassInfo: !<reference> e8607b4c-0a0f-4e90-be69-57f178ab1335
+    Materials/Sand: !<reference> 598a8932-5195-4636-bc6a-c5c81701013a
+    Materials/Sand|Sand|GraphPassInfo: !<reference> 59331e0e-e7a7-4115-9fbd-8ab3c78ca704
+    Materials/Star: !<reference> d105ef1a-25a2-4deb-a01d-7987e06e4109
+    Materials/Star|Star|GraphPassInfo: !<reference> e59f2c67-da71-4d74-b9ed-70d010d6dc6d
+    Materials/Tree: !<reference> 9ac127df-a792-4daa-83bf-037235fe8123
+    Materials/Tree|Tree|GraphPassInfo: !<reference> 249e1146-7d13-4fb6-a6d8-68ad26a30cda
+    Materials/Water: !<reference> d82ca52d-b3fc-40a3-bc60-753846acaa30
+    Materials/Water|Water|GraphPassInfo: !<reference> e4cbedfb-46dc-4ac1-bd7a-cfaecb3a450e
+    Materials/Wood: !<reference> ec07e9f4-8643-4687-a1e5-c0e1d63b623c
+    Materials/Wood|Wood|GraphPassInfo: !<reference> 5fd5e106-2623-46f1-b895-10283ad174e8
+    Materials/material: !<reference> 85086b6a-d5ab-4a34-9d95-6627e0af272a
+    Materials/material_7: !<reference> ebe89f01-0a8d-4398-891c-8a4683c287e0
+    Materials/material_7|material_7|GraphPassInfo: !<reference> 281b2c28-2e73-4c0f-a54d-0aaa7274aaff
+    Materials/material|material|GraphPassInfo: !<reference> f36c4144-8ada-4c9a-82de-de1134805a80
+    Meshes/Clouds and Stars_Ice_0: !<reference> 6e2c068c-52f6-4e7e-8cf1-7c788b6eaf77
+    Meshes/Clouds and Stars_Star_0: !<reference> b4c2291c-e4da-42c3-8183-67053527595b
+    Meshes/Earth Details_Blue_0: !<reference> a79e99c3-2ce3-4356-ab4a-5161c2a96b46
+    Meshes/Earth Details_Ice_0: !<reference> 40166340-e95d-48b1-a910-08a4c983fe8b
+    Meshes/Earth Details_Sand_0: !<reference> 2e2cbb2b-10a3-4bb4-8a8c-04f649995e2e
+    Meshes/Earth Details_Tree_0: !<reference> 3cebecb2-0d6d-4a2e-bdf0-1a8de192f500
+    Meshes/Earth Details_Tree_01: !<reference> 34c5849c-7148-4017-aa4b-a4c7293384b2
+    Meshes/Earth Details_Wood_0: !<reference> 2785073f-4ba2-4f11-8da8-e2a4f9d29298
+    Meshes/Earth Details_red_0: !<reference> 99b396ed-17fb-4c97-8c6f-f867cd3f2abe
+    Meshes/Earth_Grass_0: !<reference> e2cfc850-e3b7-46d6-8f80-877844403d3b
+    Meshes/Earth_Ice_0: !<reference> 78fdcafd-b658-40b2-9d11-d8c1af6173b6
+    Meshes/Earth_Sand_0: !<reference> 8f5c9f06-691c-4b51-a736-295ddea9dca5
+    Meshes/Earth_Water_0: !<reference> 9d87a319-8a29-45e6-aa53-fdee0f5985a8
+    Scene: !<reference> a2ec5b88-27b2-4852-b206-3b62eecd8f5a
+    a5c5b72aea7e70ea: !<reference> 1210a222-2039-4715-ba78-d1e7c560ced0
+    ad98482f6fc90574: !<reference> 609fbec8-9bf7-4b1e-a06b-dd141ed6491e
+    b1ace7184ccda1fe: !<reference> 372196e9-e9f0-4d26-ba1e-9d84985dc68d
+    bae1f4cab18d7002: !<reference> b7cf7d3e-f844-4f31-a6d1-e27952be9de8
+    bae1f4cab18eeddb: !<reference> 4d6f4618-9b70-43ad-9587-b69a8f20375d
+    c07558e639f1d928: !<reference> 6185b451-242b-433f-9f29-20bae07125ae
+    c67423d03d22dbc4: !<reference> 6d5c8fab-a9d4-40bb-8680-5c30885ebb3d
+    cb346306483580a7: !<reference> a7eb4b4b-cdaf-46a7-b6ec-66d395fdf4e3
+    d4660ff65261b499: !<reference> 22460936-2913-44cb-924c-5bef4053675a
+    d8d9725660a5db97: !<reference> ac83989e-6dae-440c-9782-912740f5fe24
+    df36c298213a58cc: !<reference> 39169677-7c90-4914-8d78-0ece45d2cc57
+    e3f058751e84d2a3: !<reference> e7a2e861-e49e-40db-a947-6bb6000b8273
+    e78dde21dd1ea70d: !<reference> 84ec8f51-654d-460d-b06d-252aa0d45d3e
+    e7aa6f49a0dec998: !<reference> 93cb8595-b363-4df8-84a7-9ba5debd4474
+    ff7936aad4ab157c: !<reference> c34b3515-2473-4df5-8676-2d345ef46fdd
+  ImporterName: GltfImporter
+  PrimaryAsset: !<reference> a2ec5b88-27b2-4852-b206-3b62eecd8f5a
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> cd77b059-0648-4d26-a3e9-d8110dcd9c2b
+  DependentFiles:
+    []
+  ImporterSettings: !<GltfImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangents: true
+    ImportMorphTargetAnimation: true
+    ConvertMetersToCentimeters: true
+    RegenerateTangents: false
+    OptimizeMesh: true
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+    ExtensionMappings:
+      mesh: None Compression
+    Overrides:
+      {}
+- !<SceneObject/00fc0e87-2183-46dc-6906-0527af3d1e1e>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Ice_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 93cb8595-b363-4df8-7b58-645a2142bb8b
+- !<RenderMeshVisual/1210a222-2039-4715-4587-2e183a9f312f>
+  PrefabRemaps:
+    []
+  Name: Earth_Water_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d82ca52d-b3fc-40a3-bc60-753846acaa30
+  Mesh: !<reference> 9d87a319-8a29-45e6-aa53-fdee0f5985a8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/154de764-cb3c-42c9-4d3c-de2f665f719b>
+  PrefabRemaps:
+    []
+  Name: Clouds and Stars_Star_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 39169677-7c90-4914-7287-f131ba2d33a8
+- !<RenderMeshVisual/18aed837-5bc4-ae8d-fd82-90579906bbce>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Tree_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ac127df-a792-4daa-83bf-037235fe8123
+  Mesh: !<reference> 34c5849c-7148-4017-aa4b-a4c7293384b2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/1af768f3-3b97-442b-4572-81c791103319>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8d6a8397-c8f7-4fb6-7303-98a8bbd5b428
+  Components:
+    []
+- !<SceneObject/1e71ed21-2bea-441e-79a4-efb3161287e4>
+  PrefabRemaps:
+    []
+  Name: 578a67fb859c4432ad395a9d408af1e7.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 7f585585-87be-40a8-5c08-6942a5d37261
+  Components:
+    []
+- !<SceneObject/22460936-2913-44cb-6db3-a410bfac98a5>
+  PrefabRemaps:
+    []
+  Name: Earth_Sand_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac83989e-6dae-440c-687d-6ed8bf0a01db
+- !<SceneObject/2a7aaf9f-0f23-4bd7-7f19-f673146108fd>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4221011f-aff8-4655-720c-199400c75e34
+  Components:
+    []
+- !<RenderMeshVisual/2b2b52f3-36a8-40c2-6425-9ecf66661538>
+  PrefabRemaps:
+    []
+  Name: Clouds and Stars_Ice_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85086b6a-d5ab-4a34-9d95-6627e0af272a
+  Mesh: !<reference> 6e2c068c-52f6-4e7e-8cf1-7c788b6eaf77
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/372196e9-e9f0-4d26-45e1-627b67a23972>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Blue_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c71c8892-249a-4343-9b16-567679fccf65
+  Mesh: !<reference> a79e99c3-2ce3-4356-ab4a-5161c2a96b46
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/39169677-7c90-4914-7287-f131ba2d33a8>
+  PrefabRemaps:
+    []
+  Name: Clouds and Stars_Star_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d105ef1a-25a2-4deb-a01d-7987e06e4109
+  Mesh: !<reference> b4c2291c-e4da-42c3-8183-67053527595b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4221011f-aff8-4655-720c-199400c75e34>
+  PrefabRemaps:
+    []
+  Name: Earth
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 39.000000, z: -0.000000}
+    Scale: {x: 358.622375, y: 358.622375, z: 358.622375}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bb8f5596-7248-4e5f-41d3-7976f5a28f70
+    - !<own> 62652d0e-7ac0-4060-62b9-dd23142a07f7
+    - !<own> 22460936-2913-44cb-6db3-a410bfac98a5
+    - !<own> a70dd19b-0e8b-4fcd-7391-85ebc51cee01
+    - !<own> 6185b451-242b-433f-60d6-df451f8eda51
+    - !<own> 609fbec8-9bf7-4b1e-5f94-22ebe129b6e1
+  Components:
+    []
+- !<SceneObject/4d6f4618-9b70-43ad-6a78-496570dfc8a2>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Tree_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e7a2e861-e49e-40db-56b8-9449fff47d8c
+- !<RenderMeshVisual/57281154-6bd9-4b5d-6826-36a5f4682efb>
+  PrefabRemaps:
+    []
+  Name: Earth Details_red_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ebe89f01-0a8d-4398-891c-8a4683c287e0
+  Mesh: !<reference> 99b396ed-17fb-4c97-8c6f-f867cd3f2abe
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AnimationPlayer/5f04b2f1-247f-4be0-6499-5b33f1f9a810>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  Autoplay: true
+  ClipRangeType: Frames
+  AnimationClips:
+    - !<AnimationClip>
+      AnimationAsset: !<reference> df2e39c0-090c-4658-93cc-bb2f61896b69
+      Name: Earth Turn
+      Weight: 1.000000
+      PlaybackSpeed: 1.000000
+      Begin: 0.000000
+      End: 20.000000
+      Offset: 0.000000
+      Reversed: false
+      Disabled: false
+      BlendMode: Default
+      ScaleMode: Multiply
+      PlaybackMode: Loop
+- !<SceneObject/609fbec8-9bf7-4b1e-5f94-22ebe129b6e1>
+  PrefabRemaps:
+    []
+  Name: Clouds and Stars
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.577033, y: -0.084903, z: 0.843577}
+    Rotation: {x: 88.937248, y: 29.591003, z: -172.792114}
+    Scale: {x: 0.041827, y: 0.041827, z: 0.041827}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9d0da96b-1b45-4765-51d2-71f0dfaacc8f
+    - !<own> 154de764-cb3c-42c9-4d3c-de2f665f719b
+  Components:
+    []
+- !<SceneObject/6185b451-242b-433f-60d6-df451f8eda51>
+  PrefabRemaps:
+    []
+  Name: Earth Details
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.163412, y: -0.812010, z: 0.591731}
+    Rotation: {x: 44.702320, y: 30.992147, z: -143.940964}
+    Scale: {x: 0.006117, y: 0.006117, z: 0.008962}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> adabfa8f-70a7-4f0b-4d35-1e63a404754f
+    - !<own> 4d6f4618-9b70-43ad-6a78-496570dfc8a2
+    - !<own> b7cf7d3e-f844-4f31-592e-1d86ad416217
+    - !<own> 00fc0e87-2183-46dc-6906-0527af3d1e1e
+    - !<own> eeaa4bf0-246d-44ae-4c59-ae8c4d10865c
+    - !<own> d0634a3d-88c2-4959-6482-808c6a610057
+    - !<own> ec754135-596b-4b37-5424-4517d294c57f
+  Components:
+    []
+- !<SceneObject/62652d0e-7ac0-4060-62b9-dd23142a07f7>
+  PrefabRemaps:
+    []
+  Name: Earth_Water_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1210a222-2039-4715-4587-2e183a9f312f
+- !<RenderMeshVisual/6d5c8fab-a9d4-40bb-797f-a3cf77a144c2>
+  PrefabRemaps:
+    []
+  Name: Earth_Ice_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85086b6a-d5ab-4a34-9d95-6627e0af272a
+  Mesh: !<reference> 78fdcafd-b658-40b2-9d11-d8c1af6173b6
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/7f585585-87be-40a8-5c08-6942a5d37261>
+  PrefabRemaps:
+    []
+  Name: Object_2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2a7aaf9f-0f23-4bd7-7f19-f673146108fd
+  Components:
+    []
+- !<RenderMeshVisual/84ec8f51-654d-460d-4f92-dad55f2ba2c1>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Sand_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 598a8932-5195-4636-bc6a-c5c81701013a
+  Mesh: !<reference> 2e2cbb2b-10a3-4bb4-8a8c-04f649995e2e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8d6a8397-c8f7-4fb6-7303-98a8bbd5b428>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c34b3515-2473-4df5-7989-d2cba10b9022
+  Components:
+    - !<own> 5f04b2f1-247f-4be0-6499-5b33f1f9a810
+- !<RenderMeshVisual/93cb8595-b363-4df8-7b58-645a2142bb8b>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Ice_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85086b6a-d5ab-4a34-9d95-6627e0af272a
+  Mesh: !<reference> 40166340-e95d-48b1-a910-08a4c983fe8b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/9d0da96b-1b45-4765-51d2-71f0dfaacc8f>
+  PrefabRemaps:
+    []
+  Name: Clouds and Stars_Ice_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2b2b52f3-36a8-40c2-6425-9ecf66661538
+- !<SceneObject/a70dd19b-0e8b-4fcd-7391-85ebc51cee01>
+  PrefabRemaps:
+    []
+  Name: Earth_Grass_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a7eb4b4b-cdaf-46a7-4913-992c6a020b1c
+- !<RenderMeshVisual/a7eb4b4b-cdaf-46a7-4913-992c6a020b1c>
+  PrefabRemaps:
+    []
+  Name: Earth_Grass_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 94bb2810-8be6-47b1-be27-9b68e05464c3
+  Mesh: !<reference> e2cfc850-e3b7-46d6-8f80-877844403d3b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ac83989e-6dae-440c-687d-6ed8bf0a01db>
+  PrefabRemaps:
+    []
+  Name: Earth_Sand_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 598a8932-5195-4636-bc6a-c5c81701013a
+  Mesh: !<reference> 8f5c9f06-691c-4b51-a736-295ddea9dca5
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/adabfa8f-70a7-4f0b-4d35-1e63a404754f>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Wood_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cff4a738-04cc-44ab-6da8-b56e24999f59
+- !<SceneObject/b7cf7d3e-f844-4f31-592e-1d86ad416217>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Tree_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 18aed837-5bc4-ae8d-fd82-90579906bbce
+- !<SceneObject/bb8f5596-7248-4e5f-41d3-7976f5a28f70>
+  PrefabRemaps:
+    []
+  Name: Earth_Ice_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6d5c8fab-a9d4-40bb-797f-a3cf77a144c2
+- !<SceneObject/c34b3515-2473-4df5-7989-d2cba10b9022>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1e71ed21-2bea-441e-79a4-efb3161287e4
+  Components:
+    []
+- !<ObjectPrefabAssetData/cd77b059-0648-4d26-a3e9-d8110dcd9c2b>
+  Prototype: !<ObjectOwner/288a0851-aa4b-49b4-abcf-999021d3a293>
+    PackagePath: ""
+    objects:
+      - !<own> d043736c-e973-4609-792b-735c90e5b044
+- !<RenderMeshVisual/cff4a738-04cc-44ab-6da8-b56e24999f59>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Wood_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ec07e9f4-8643-4687-a1e5-c0e1d63b623c
+  Mesh: !<reference> 2785073f-4ba2-4f11-8da8-e2a4f9d29298
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d043736c-e973-4609-792b-735c90e5b044>
+  PrefabRemaps:
+    []
+  Name: planet_earth (1)
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1af768f3-3b97-442b-4572-81c791103319
+  Components:
+    []
+- !<SceneObject/d0634a3d-88c2-4959-6482-808c6a610057>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Sand_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 84ec8f51-654d-460d-4f92-dad55f2ba2c1
+- !<RenderMeshVisual/e7a2e861-e49e-40db-56b8-9449fff47d8c>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Tree_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ac127df-a792-4daa-83bf-037235fe8123
+  Mesh: !<reference> 3cebecb2-0d6d-4a2e-bdf0-1a8de192f500
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/ec754135-596b-4b37-5424-4517d294c57f>
+  PrefabRemaps:
+    []
+  Name: Earth Details_red_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 57281154-6bd9-4b5d-6826-36a5f4682efb
+- !<SceneObject/eeaa4bf0-246d-44ae-4c59-ae8c4d10865c>
+  PrefabRemaps:
+    []
+  Name: Earth Details_Blue_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 372196e9-e9f0-4d26-45e1-627b67a23972

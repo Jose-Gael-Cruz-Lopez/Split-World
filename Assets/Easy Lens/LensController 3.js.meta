@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/dcfb3981-2ef1-4e42-a830-3553197131fb>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 18d89004-7c22-4d5a-9181-6202b3840b6f
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 18d89004-7c22-4d5a-9181-6202b3840b6f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    USE_EASY_LENS: ""
+  AssetDataMap:
+    JavaScriptAsset: !<own> a87acde8-7db8-4e82-ab32-6373c77c8bf8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/a87acde8-7db8-4e82-ab32-6373c77c8bf8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0330b5ad-401e-4b19-b812-25b0a921b344
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    blank_white_page: false
+    globe_background: false
+    splitworld_canvas_page0: false
+    sprite_manager: false
+    touch_events: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - globe_background: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      touch_events: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      blank_white_page: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      splitworld_canvas_page0: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      sprite_manager: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}

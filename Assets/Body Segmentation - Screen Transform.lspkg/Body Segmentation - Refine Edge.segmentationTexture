@@ -1,0 +1,7 @@
+- !<SegmentationTexture/bf923ac7-0c37-47fa-b915-4a495b16e032>
+  PackagePath: ""
+  SegmentationType: Body
+  InvertMask: false
+  Feathering: 0.750000
+  RefineEdge: true
+  TrackingScope: !<reference> 00000000-0000-0000-0000-000000000000
